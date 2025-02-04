@@ -1,0 +1,28 @@
+@media(max-width: 600px) {
+   
+   
+    header h1 {
+        font-size: 30px;
+    }
+
+    .left-to-right {
+        display: flex;
+    }
+
+    .left-to-right:first-child {
+        
+        
+       background-size: contain;
+       
+        
+    }
+
+    main .left-to-right article {
+        margin: -1em;
+        
+        background-color: white;
+        padding: 0;
+        border-radius: 90px;
+       
+    }
+}

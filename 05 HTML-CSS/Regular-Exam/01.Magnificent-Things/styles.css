@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px Inter;
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    max-width: 365px;
+    height: 480px;
+    
+}
+
+article {
+    display: flex;
+    gap: 2em;
+    max-width: 1040px;
+    margin: 0 auto;
+    background: #85DCFF;
+    justify-content: space-evenly;
+    padding: 4em 2em;
+    border: 2px solid black;
+}
+
+article .content {
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article .media {
+    flex: 0 0 365px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.9);
+}
+
+h1 {
+    font-size: 42px;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+}
+
+.buttons a {
+    padding: 1em 2em;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+}
+
+.button.primary {
+    background-color: #42AA59;
+    border:2px solid black;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.button.primary:hover {
+    background-color: black;
+    color: white;
+}

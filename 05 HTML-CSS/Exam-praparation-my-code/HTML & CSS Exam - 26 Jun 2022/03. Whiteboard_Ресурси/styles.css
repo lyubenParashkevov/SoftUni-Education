@@ -1,0 +1,91 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: PT Sans;
+    max-width: 1200px;
+}
+body {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+    border:1px solid black;
+}
+header, section, footer {
+    width: 95%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 400px;
+}
+header {
+   color: red;
+   text-align: center;
+   height: 530px;
+    background: url(image/computer-main.jpg);
+    background-size: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.first .text ul li {
+    display: flex;
+}
+.first, .second {
+    width: 0 1 50%;
+    display: flex;
+    
+}
+
+.first i {
+    padding-right: 1em;
+}
+.first .text, .second .text {
+    padding: 2em;
+}
+.first img {
+   width: 596px;
+   height: 527;
+}
+
+.tablet .img {
+    max-width: 596px;
+    height: auto;
+}
+
+.second .text {
+    display: flex;
+    flex-direction: column;
+    height: 395px;
+}
+
+.second .text .pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 596px;
+    
+}
+
+.second .text .pics img {
+    width: 10%;
+    height: auto;
+}

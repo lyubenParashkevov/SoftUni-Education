@@ -1,0 +1,16 @@
+body {
+    Width: 700px;
+    Height: 500px;
+	Margin: 60px
+}
+
+.new, .cup {
+    display: inline-block;
+}
+
+.new {
+    position: absolute;
+    top: 0;
+    left: 280px;
+}
+

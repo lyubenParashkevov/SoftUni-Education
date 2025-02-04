@@ -1,0 +1,34 @@
+@media(max-width: 600px) {
+   
+     .placeholder {
+        height:125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+
+     .placeholder nav {
+        align-self: center;
+     }
+
+     .row-tm-header-inner {
+        display: block;
+     }
+    .row-tm-header-inner h1 {
+        font-size: 24px;
+        
+    }
+   
+    .row-tm-header-inner h6,
+    .row-tm-header-inner nav {
+        font-size: 13px;
+        
+    }
+   
+    .tm-site-logo {
+        width: 55px;
+    }
+   
+    
+    
+}

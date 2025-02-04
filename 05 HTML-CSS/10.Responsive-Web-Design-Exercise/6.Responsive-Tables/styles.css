@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+table, table td, table th {
+    border: 1px solid #ccc;
+}
+    
+    
+table th, table td {
+    padding: 0.5em 1em;
+}
+
+table thead th, table thead td {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    table, tbody, tr, td, th {
+        display: block;
+    }
+}

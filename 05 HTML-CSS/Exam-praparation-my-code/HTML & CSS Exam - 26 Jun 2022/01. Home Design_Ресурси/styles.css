@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Courgette, serif;
+    font-size: 15px;
+}
+
+body {
+    padding: 2em;
+}
+
+main {
+    max-width: 1360px;
+    height: 616px;
+    background-color: #F5F5F5;
+    border: 2px solid black;
+}
+
+header {
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: #CB2027;
+    text-indent: 9em;
+}
+
+.section {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.first, .second, .third {
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+img {
+    width: 348px;
+    height: 190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article {
+    height: 200px;
+    padding: 0 20px;
+}
+
+article h3 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 18px;
+    border-bottom: 2px solid #CB2027;
+    padding-bottom: 18px;
+    font-size: 24px;
+}
+
+.text {
+    padding-top: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 1.5em;
+}
+
+.first .continue{
+    padding-top: 2.7em;
+}

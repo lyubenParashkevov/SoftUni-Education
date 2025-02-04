@@ -1,0 +1,28 @@
+body{
+    Margin: 0px;
+    Padding: 0px;
+    Background-color: #CCCCCC;
+}
+
+section{
+
+    Margin-Left: 20px;
+}
+ 
+ header{
+   h1{
+
+       font-size:28px;
+   }
+    
+    p{
+        font-size: 17px;
+        font-style: italic;
+    }
+
+}
+
+p{
+
+     font-size: 24px;
+}

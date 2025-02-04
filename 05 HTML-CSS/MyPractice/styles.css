@@ -1,0 +1,68 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    background-color: rgb(175, 219, 229);
+    font-size: 55px;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    flex-direction: column;
+    
+    
+}
+
+header div {
+    flex-direction: column;
+    text-align: center;
+    text-decoration: rgb(243, 213, 160);
+}
+
+body {
+    background-color: rgb(243, 213, 160);
+    display: block;
+}
+
+header div {
+    display: flex;
+    width:auto;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    padding: 2em;
+    display: flex;
+    
+   
+}
+
+a {
+    padding: 2em;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: red;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    margin: 4em;
+    font-size: 36px;
+}
+ .result {
+    border: 3px solid;
+    border-radius: 4px;
+ }

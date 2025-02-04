@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238,238,238);
+    color: rgb(51, 51, 51);
+    line-height: 1.5em;
+    padding-left: 2em;
+
+}
+
+h1, h2 {
+    font-family: serif;
+}
+
+
+article, aside {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+
+article {
+    width: 65%;
+    margin: 1em;
+    padding: 1em;
+}
+
+img {
+    width: 65%;
+    height: auto;
+}
+
+aside {
+    position: absolute;
+    width: 40%;
+    padding-top: 2em;
+}
