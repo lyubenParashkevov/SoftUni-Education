@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Stealer", "01.Stealer\01.Stealer.csproj", "{4DBEDA34-1281-405C-9F3E-15D6B600FD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CreateAttribute", "05.CreateAttribute\05.CreateAttribute.csproj", "{8C852A66-A657-4018-A25D-90B96D6D17FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DBEDA34-1281-405C-9F3E-15D6B600FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBEDA34-1281-405C-9F3E-15D6B600FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBEDA34-1281-405C-9F3E-15D6B600FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBEDA34-1281-405C-9F3E-15D6B600FD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C852A66-A657-4018-A25D-90B96D6D17FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C852A66-A657-4018-A25D-90B96D6D17FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C852A66-A657-4018-A25D-90B96D6D17FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C852A66-A657-4018-A25D-90B96D6D17FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
