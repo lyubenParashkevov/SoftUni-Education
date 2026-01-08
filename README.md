@@ -1,2 +1,2 @@
-# SoftUni-Education
-My education in SoftUni
+SoftUni-Education With C#
+My education in SoftUni C#
