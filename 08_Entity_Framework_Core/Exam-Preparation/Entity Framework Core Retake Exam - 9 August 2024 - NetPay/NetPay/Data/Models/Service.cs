@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NetPay.Data.Models
+{
+    public class Service
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(30, MinimumLength = 5)]
+        public string ServiceName { get; set; } = null!;
+
+        [Required]
+        public virtual ICollection<Expense> Expenses { get; set; } = new HashSet<Expense>();
+
+        [Required]
+        public virtual ICollection<SupplierService> SuppliersServices { get; set; } = new HashSet<SupplierService>();
+
+    }
+}
+
+

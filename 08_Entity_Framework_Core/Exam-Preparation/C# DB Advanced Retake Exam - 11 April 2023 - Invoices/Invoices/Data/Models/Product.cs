@@ -1,0 +1,33 @@
+﻿using AutoMapper.Configuration.Conventions;
+using Invoices.Data.Models.Enums;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Invoices.Data.Models
+{
+    public class Product
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(30, MinimumLength = 9)]
+        [Unicode]
+        public string Name { get; set; } = null!;
+
+        [Range(5.00, 1000.00)]
+        public decimal Price { get; set; }
+
+        [Required]   
+        public CategoryType CategoryType { get; set; }
+
+        public virtual ICollection<ProductClient> ProductsClients { get; set; } = new HashSet<ProductClient>();
+        
+    }
+}
+
